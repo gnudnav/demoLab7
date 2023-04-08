@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TSHOP</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="L7b2.css" />
+    <style>
+      .margin-left {
+        margin-top: -5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="app">
+      <div class="header bg-success">
+        <div class="d-flex justify-content-between container p-2">
+          <div class="d-flex">
+            <div class="text-white">
+              <a href="" class="text-white text-decoration-none">HELP</a>
+            </div>
+            <div class="ms-4 text-white">
+              <i class="fa-solid fa-phone fa-beat"></i>
+              +1-282-555-0151
+            </div>
+          </div>
+          <div class="d-flex">
+            <div class="text-white">
+              <a href="" class="text-white text-decoration-none">MY ACCOUNT</a>
+            </div>
+            <div class="text-white ms-4">
+              <a href="" class="text-white text-decoration-none">SIGN IN</a>
+            </div>
+            <div class="text-white ms-4">
+              <a href="" class="text-white text-decoration-none"
+                >CREATE ACCOUNT</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="nav">
+        <div class="d-flex justify-content-between container">
+          <div class="bars fs-3">
+            <a href="" class="text-white text-decoration-none">
+              <i class="fa-solid fa-bars"></i>
+            </a>
+          </div>
+          <div class="">
+            <div class="d-flex">
+              <div class="">
+                <div class="text-white fw-bolder">
+                  <a href="" class="text-white text-decoration-none">
+                    <h2>TSHOP</h2>
+                  </a>
+                </div>
+              </div>
+              <div class="nav__menu">
+                <div class="d-flex pt-2">
+                  <div class="ms-3 text-lg-center text-white">
+                    <a href="" class="text-white text-decoration-none">HOME</a>
+                  </div>
+                  <div class="ms-3 text-white text-center">
+                    <a href="" class="text-white text-decoration-none"
+                      >NEW PRODUCTS
+                      <i class="fa-sharp fa-solid fa-sort-down"></i
+                    ></a>
+                  </div>
+                  <div class="ms-3 text-white">
+                    <a href="" class="text-white text-decoration-none">
+                      SHOP <i class="fa-sharp fa-solid fa-sort-down"></i
+                    ></a>
+                  </div>
+                  <div class="ms-3 text-white">
+                    <a href="" class="text-white text-decoration-none">
+                      PAGES <i class="fa-sharp fa-solid fa-sort-down"></i
+                    ></a>
+                  </div>
+                  <div class="ms-3 text-white">
+                    <a href="" class="text-white text-decoration-none">
+                      ALL PAGE LINK
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="nav__menu--end d-flex pt-2">
+            <div class="d-flex text-white">
+              <a href="" class="text-white">
+                <i class="fa-solid fa-cart-shopping pt-1"></i>
+              </a>
+
+              <p class="font">CART($210.00)</p>
+              <a href="" class="down text-white">
+                <i class="fa-sharp fa-solid fa-sort-down"></i>
+              </a>
+            </div>
+            <div class="ms-3">
+              <a href="" class="text-white">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mt-5 border p-2 d-flex container bg-body border-dark">
+        <div class="">Home</div>
+        <div class="ms-1">/ Category /</div>
+        <div class="ms-1">Cart</div>
+      </div>
+      <div class="mt-3 d-flex justify-content-between container">
+        <div class="fs-2">
+          <a href="" class="text-black text-decoration-none">
+            <i class="fa-solid fa-cart-shopping"></i>
+            Shopping cart
+          </a>
+        </div>
+        <div class="fs-6 mt-3">
+          <a href="" class="text-black text-decoration-none">
+            <i class="fa-sharp fa-solid fa-chevron-left"></i>
+            BACK TO SHOPPING
+          </a>
+        </div>
+      </div>
+
+      <div
+        class="justify-content-between container d-flex mt-4 col-12 col-md-12 flex-column flex-md-row"
+      >
+        <div class="w-100">
+          <div
+            class="list border p-2 border-secondary justify-content-between d-flex container"
+          >
+            <div class="d-flex">
+              <div class="ms-1">PRODUCT</div>
+              <div class="ms-3">DETAILS</div>
+            </div>
+            <div class="d-flex">
+              <div class="">QNT</div>
+              <div class="ms-3">DISCOUNT</div>
+              <div class="ms-2 mx-4">TOTAL</div>
+            </div>
+          </div>
+          <div
+            class="list-font border bg-body p-3 border-secondary d-flex justify-content-between"
+          >
+            <div class="d-flex">
+              <img src="2.jpe" alt="" width="30%" />
+              <div class="ms-4">
+                <div class="fw-bold mt-3">Denim T shirt Black</div>
+                <div class="mt-5">12 x 1.5L</div>
+                <div class="fw-bold">$8.80</div>
+              </div>
+            </div>
+            <div class="d-flex">
+              <div class="mx-1 fw-bold fs-3 mt-5">
+                <i class="fa-regular fa-trash-can"></i>
+              </div>
+              <div class="mx-2 ms-1 mt-5">-</div>
+              <div class="">
+                <p class="border p-2 mt-5">2</p>
+              </div>
+              <div class="mx-1 ms-2 mt-5">+</div>
+              <div class="ms-4 mt-5 mx-3">0</div>
+              <div class="mt-5 fw-bold">$300</div>
+            </div>
+          </div>
+          <div
+            class="list-font border bg-body p-3 border-secondary d-flex justify-content-between border-top-0"
+          >
+            <div class="d-flex">
+              <img src="3.jpe" alt="" width="30%" />
+              <div class="ms-4">
+                <div class="fw-bold mt-3">Denim T shirt Red</div>
+                <div class="mt-5">12 x 1.5L</div>
+                <div class="fw-bold">$30</div>
+              </div>
+            </div>
+            <div class="d-flex ">
+              <div class="mx-1 fw-bold fs-3 mt-5">
+                <i class="fa-regular fa-trash-can"></i>
+              </div>
+              <div class="mx-2 ms-1 mt-5">-</div>
+              <div class="">
+                <p class="border p-2 mt-5">2</p>
+              </div>
+              <div class="mx-1 ms-2 mt-5">+</div>
+              <div class="ms-4 mt-5 mx-3">0</div>
+              <div class="mt-5 fw-bold">$300</div>
+            </div>
+          </div>
+          <div
+            class="list-font border bg-body p-3 border-secondary d-flex justify-content-between border-top-0"
+          >
+            <div class="d-flex">
+              <img src="4.jpe" alt="" width="30%" />
+              <div class="ms-4">
+                <div class="fw-bold mt-3">Denim T shirt Blue</div>
+                <div class="mt-5">12 x 1.5L</div>
+                <div class="fw-bold">$8.80</div>
+              </div>
+            </div>
+            <div class="d-flex">
+              <div class="mx-1 fw-bold fs-3 mt-5">
+                <i class="fa-regular fa-trash-can"></i>
+              </div>
+              <div class="mx-2 ms-1 mt-5">-</div>
+              <div class="">
+                <p class="border p-2 mt-5">2</p>
+              </div>
+              <div class="mx-1 ms-2 mt-5">+</div>
+              <div class="ms-4 mt-5 mx-3">0</div>
+              <div class="mt-5 fw-bold">$300</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="w-75 ms-5 mt-1">
+          <div class="container border p-2 bg-success text-white rounded">
+            <div class="ms-4">Proceed to checkout</div>
+          </div>
+          <div class="container p-3 border border-light mt-3 bg-body">
+            <div class="text-black justify-content-between d-flex">
+              <div class="">Total products</div>
+              <div class="fw-bold">$216.51</div>
+            </div>
+            <hr />
+            <div class="text-black justify-content-between d-flex">
+              <div class="">Shipping</div>
+              <div class="text-danger fw-bold">Free shipping</div>
+            </div>
+            <hr />
+            <div class="text-black justify-content-between d-flex">
+              <div class="">Total (tax excl.)</div>
+              <div class="fw-bold ms-5">$216.51</div>
+            </div>
+            <hr />
+            <div class="text-black justify-content-between d-flex">
+              <div class="">Total tax</div>
+              <div class="fw-bold mx-2">$0.00</div>
+            </div>
+            <hr />
+
+            <div class="text-black justify-content-between d-flex">
+              <div class="mx-5 ms-0">Total</div>
+              <div class="fw-bold text-success ms-5">$216.51</div>
+            </div>
+            <hr />
+            <div class="d-flex">
+              <input
+                class=""
+                type="text"
+                name=""
+                id=""
+                placeholder="Coupon code"
+              />
+              <button class="ms-1 border-1 bg-success text-white">
+                Apply!
+              </button>
+            </div>
+            <div class="mt-5"></div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="">
+        <div class="d-flex justify-content-between mt-5 container ">  
+          <div class="border border-secondary bg-secondary p-2">
+            <a href="" class="text-decoration-none text-white">
+              <i class="fa-sharp fa-solid fa-chevron-left"></i>
+              Continue shopping
+            </a>
+          </div>
+          <div class="border border-secondary bg-secondary p-2">
+            <a href="" class="text-decoration-none text-white">
+              <i class="fa-solid fa-rotate-right fa-spin"></i>
+              Update cart
+            </a>
+            
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+      <div class="footer mt-5  bg-light mt-4 col-12 col-md-12 flex-column flex-md-row">
+        <div class="justify-content-between d-flex container">
+          <div class="w-25">
+            <p class="fs-6">
+              SUPPORT
+              <hr />
+              <div class="fs-6">
+                Lorem ipsum dolor sit amet,consectetur
+                <div class="">
+                  <i class="fa-solid fa-phone"></i>
+                  +1-282-555-0151
+                </div>
+                <div class="">
+                  <i class="fa-solid fa-envelope"></i>
+                  help@yourweb.com
+                </div>
+              </div>
+            </p>
+          </div>
+          <div class="">
+            <p class="ps-6">
+              SHOP
+              <hr />
+            </p>
+            <div class="fs-6">
+              <p>Men's</p>
+              <p>Women's</p>
+              <p>Kid's</p>
+              <p>Shoes</p>
+              <p>Gilt Cards</p>
+            </div>
+          </div>
+          <div class="">
+            <p class="fs-6">
+              INFORMATION
+              <hr />
+            </p>
+            <div class="fs-6">
+              <p>Questionss?</p>
+              <p>Order Status</p>
+              <p>Sizing Charts</p>
+              <p>Return Policy</p>
+              <p>Contact Us</p>
+            </div>
+          </div>
+          <div class="">
+            <p class="fs-6">
+              MY ACCOUNT
+              <hr />
+            </p>
+            <div class="fs-6">
+              <p>My Account</p>
+              <p>My Adress</p>
+              <p>Wish List</p>
+              <p>Order list</p>
+              <p>Order Status</p>
+            </div>
+          </div>
+          <div class="footer-menu">
+            <h4>
+              STAY IN TOUCH
+              <hr />
+            </h4>
+            <div class="border text-lg-center p-3">Email</div>
+            <div class="text-lg-center fa-1x bg-success p-3 text-white mt-3">
+              SUBSCRIBE->
+            </div>
+            <div class="mt-3 fs-4">
+              <i class="fa-brands fa-facebook m-lg-2"></i>
+              <i class="fa-brands fa-google-plus"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-youtube"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="">
+        <div class="justify-content-between d-flex container p-3">
+          <div class="">TSHOP 2014.All right reserved</div>
+          <div class="fs-3">
+            <i class="fa-brands fa-cc-visa m-lg-1"></i>
+            <i class="fa-brands fa-cc-paypal m-lg-1"></i>
+            <i class="fa-brands fa-cc-stripe m-lg-1"></i>
+            <i class="fa-brands fa-cc-jcb m-lg-1"></i>
+            <i class="fa-brands fa-cc-discover m-lg-1"></i>
+            <i class="fa-brands fa-cc-apple-pay m-lg-1"></i>
+          </div>
+        </div>
+      </div>
+      <div class="mt-5 bg-light"></div>
+    </div>
+  </body>
+</html>
